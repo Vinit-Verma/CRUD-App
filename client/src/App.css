@@ -1,0 +1,126 @@
+/* .App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input,
+button {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  margin: 5px;
+}
+label {
+} */
+.outerContainer {
+  width: 100%;
+  /* background-color: blueviolet; */
+}
+.innerContainer {
+  width: 50%;
+  /* background-color: coral; */
+  margin: auto;
+}
+.upperDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px black dotted;
+  border-radius: 10px;
+}
+.lowerDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px black dotted;
+  border-radius: 10px;
+}
+.listItem {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+}
+.m-5 {
+  margin: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.p-5 {
+  padding: 5px;
+}
+.line {
+  width: 100%;
+  height: 3px;
+  background-color: red;
+  border-top: black 2px solid;
+  border-bottom: black 2px solid;
+  margin-top: 10px;
+}
+.name {
+  font-weight: bold;
+  margin-right: 5px;
+  border-right: solid 2px black;
+  padding: 5px;
+}
+.number {
+  font-style: italic;
+  font-weight: 600;
+  /* margin-right: 1em; */
+}
+.change {
+  padding: 5px;
+  margin: 0 10px;
+}
+.update {
+  padding: 5px 10px;
+  margin-right: 10px;
+  background-color: blueviolet;
+  color: white;
+  border: solid black 2px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.update:hover {
+  padding: 5px 10px;
+  margin-right: 10px;
+  background-color: blueviolet;
+  color: white;
+  border: solid black 2px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 40px;
+}
+.del {
+  padding: 5px 10px;
+  background-color: red;
+  color: black;
+  border: solid black 2px;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+.del:hover {
+  padding: 5px 10px;
+  background-color: red;
+  color: black;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: solid black 2px;
+}
+#addButton {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(128, 255, 0, 0.596);
+  border-radius: 50px;
+  cursor: pointer;
+}
+#addButton:hover {
+  border-style: inset;
+}
